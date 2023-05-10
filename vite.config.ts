@@ -14,9 +14,9 @@ export default defineConfig(({ command, mode }) => {
       lib: {
         // Could also be a dictionary or array of multiple entry points
         entry: resolve(__dirname, "src/main.ts"),
-        name: "PuddingPubsub",
+        name: "PurinPubsub",
         // the proper extensions will be added
-        fileName: "pudding-pubsub",
+        fileName: "purin-pubsub",
       },
     },
     base: "./",

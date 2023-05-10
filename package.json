@@ -1,8 +1,8 @@
 {
-  "name": "pudding-pubsub",
-  "version": "1.0.2",
+  "name": "purin-pubsub",
+  "version": "1.0.3",
   "private": false,
-  "main": "./products/pudding-pubsub.js",
+  "main": "./products/purin-pubsub.js",
   "typings": "./products/main.d.ts",
   "files": [
     "/products",
