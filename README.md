@@ -2,6 +2,8 @@
 
 Only 1KB, TypeScript-friendly Publish/Subscribe library.
 
+> Tips: Purin just Pudding
+
 ## Where to get
 
 ```sh
