@@ -19,8 +19,11 @@ type YourData = {
 
 const pudding = definePuddingPubsub<YourData>();
 
-pudding.subscribe("count", ({ key, value }) => {
+const unsubcribe = pudding.subscribe("count", ({ key, value }) => {
   console.log(key, value); // echo: count 1
+
+  // unsubscribe is also very simple! execute it, this function will not be executed
+  unsubcribe();
 });
 
 pudding.publish("count", 1);
