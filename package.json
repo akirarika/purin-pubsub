@@ -1,7 +1,14 @@
 {
   "name": "purin-pubsub",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
+  "description": "Only 1KB, TypeScript-friendly Publish/Subscribe library.",
+  "keywords": [
+    "typescript",
+    "pub/sub",
+    "publish",
+    "subscribe"
+  ],
   "main": "./products/purin-pubsub.js",
   "typings": "./products/main.d.ts",
   "files": [
